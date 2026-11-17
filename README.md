@@ -9,7 +9,7 @@
 1. Upload folder ini ke repositori GitHub (private juga boleh).
 2. Netlify → **Add new site → Import from Git** → pilih repositori. Biarkan pengaturan build default.
 3. Netlify → **Site configuration → Environment variables**, tambahkan:
-   - `ADMIN_PIN` = `1412`  (PIN admin, 4 angka; ganti kapan saja lalu deploy ulang)
+   - `ADMIN_PIN` = `5546`  (PIN admin, 4 angka; ganti kapan saja lalu deploy ulang)
    - `SESSION_SECRET` = teks acak panjang apa saja (mis. 40 karakter)
 4. Deploy ulang. Selesai.
 
